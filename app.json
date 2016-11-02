@@ -1,6 +1,6 @@
 {
   "pages": [
-    "pages/index/index",
+    "pages/component/viewContainer/viewContainer",
     "pages/logs/logs"
   ],
   "window": {
