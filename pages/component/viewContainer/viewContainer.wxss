@@ -1,19 +1,11 @@
-.container {
-  height: 100%;
+.flex-wrp{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding: 200rpx 0;
-  box-sizing: border-box;
+  background: #fff;
 }
-
-.textStyle {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.flex-item{
+  height: 100px;
+  width: 100px;
 }
-
-.textContainer {
-  margin-top: 200px;
+.section{
+  margin-bottom: 40px;
 }

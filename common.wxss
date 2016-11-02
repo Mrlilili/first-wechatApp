@@ -1,0 +1,22 @@
+.bc_green{
+    background: #09BB07;
+}
+.bc_red{
+    background: #F76260;
+}
+.bc_yellow{
+    background: #FFBE00;
+}
+.bc_blue{
+    background: #10AEFF;
+}
+.section_title{
+    margin-bottom:8px;
+    padding-left:15px;
+    padding-right:15px;
+}
+
+.scroll-view-item{
+    height: 200px;
+    width: 100%;
+}
