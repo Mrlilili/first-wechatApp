@@ -20,3 +20,8 @@
     height: 200px;
     width: 100%;
 }
+.scroll-view-item_H{
+    height: 200px;
+    width: 100%;
+    display: inline-block
+}

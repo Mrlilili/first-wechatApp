@@ -17,9 +17,10 @@
 
 
 
+
 <view class="section section_gap">
   <view class="section__title">horizontal scroll</view>
-  <scroll-view class="scroll-view_H" scroll-x="true" style="width: 100%">
+  <scroll-view class="scroll-view_H" scroll-x="true" style="height:200px;width: 100%">
     <view id="green" class="scroll-view-item_H bc_green"></view>
     <view id="red"  class="scroll-view-item_H bc_red"></view>
     <view id="yellow" class="scroll-view-item_H bc_yellow"></view>

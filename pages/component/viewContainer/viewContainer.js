@@ -20,8 +20,17 @@ Page({
   onUnload: function () {
     // 页面关闭
   },
+  scroll: function (e) {
+    console.log(e)
+  },
   tapMove: function () {
-    console.log('move');
+    console.log('move')
+  },
+  upper: function () {
+    console.log('upper')
+  },
+  lower: function () {
+    console.log('lower')
   },
   tap: function (e) {
     for (var i = 0; i < order.length; ++i) {
