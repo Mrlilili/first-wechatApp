@@ -1,13 +1,14 @@
 {
   "pages": [
+    "pages/component/basicContent/basicContent",
     "pages/component/viewContainer/viewContainer",
     "pages/logs/logs"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#000",
+    "navigationBarBackgroundColor": "#10AEFF",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "red"
+    "navigationBarTextStyle": "#fff"
   },
   "tabBar": {
     "color": "#dddddd",
@@ -21,7 +22,6 @@
         "selectedIconPath": "image/wechatHL.png",
         "text": "组件"
       },
-
       {
         "pagePath": "pages/logs/logs",
         "iconPath": "image/wechat.png",
