@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/component/formComponent/formComponent",
     "pages/component/basicContent/basicContent",
     "pages/component/viewContainer/viewContainer",
     "pages/logs/logs"
