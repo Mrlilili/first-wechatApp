@@ -1,4 +1,5 @@
 <view>
+  <view class="section_title">button</view>
   <button type="default" size="{{defaultSize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}"
           bindtap="default" hover-class="other-button-hover">default</button>
   <button type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}"
@@ -10,3 +11,12 @@
   <button bindtap="setPlain">点击设置以上按钮plain属性</button>
   <button bindtap="setLoading">点击设置以上按钮loading属性</button>
 </view>
+<view>
+  <view class="section_title">checkbox-group</view>
+  <checkbox-group bindchange="checkboxChange">
+    <label class="checkbox" wx:for="{{checkboxData.items}}">
+      <checkbox value="{{item.name}}" checked="{{item.checked}}" />
+      {{item.value}}
+    </label>
+    </checkbox-group>
+  </view>

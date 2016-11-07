@@ -31,3 +31,4 @@
     <button bindtap="remove">remove line</button>
   </view>
 </view>
+
