@@ -11,7 +11,9 @@
     background: #10AEFF;
 }
 .section_title{
-    margin-bottom:8px;
+    font-weight: bold;
+    margin-bottom:50px;
+    margin-top: 50px;
     padding-left:15px;
     padding-right:15px;
 }

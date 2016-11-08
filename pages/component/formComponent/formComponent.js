@@ -24,7 +24,7 @@ var pageObject = {
       disabled: !this.data.disabled
     })
   },
-  checkboxChange:function(){
+  checkboxChange: function () {
     console.log(this.data.checkboxData)
   },
   setPlain: function () {
@@ -36,6 +36,12 @@ var pageObject = {
     this.setData({
       loading: !this.data.loading
     })
+  },
+  formSubmit: function (e) {
+    console.log('form发生了submit事件，携带数据为：', e.detail.value)
+  },
+  formReset: function () {
+    console.log('form发生了reset事件')
   }
 }
 
